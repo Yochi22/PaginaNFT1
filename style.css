@@ -1,0 +1,288 @@
+*{
+    font-family: "Lexend",sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-left: 40%;
+    margin-top: -35px;
+   }
+   .logo{
+    margin-top: 80px;
+    margin-left: 0.5rem;
+    }
+
+nav{
+    width: 20%;
+
+}
+.menu{
+    width: 30%;
+    margin-left: 65%;
+    margin-top: -15%;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#28325C ;
+    padding-bottom: 60px;
+}
+.containerprincipal{
+   padding-top: 6rem;
+    font-family: "Lexend",sans-serif;
+   background-color: #28325C;
+   color: white;
+   width: 100%;
+   text-align: left;
+}
+.tituloprincipal{
+    font-size: 48px;
+}
+.texto{
+    font-size: 1rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    --bs-text-opacity: 1;
+}
+span{
+    color: #ff0076;
+}
+.list-info{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 0;  
+    text-transform: uppercase;
+}
+
+li{
+    padding-right: 15px;
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.btn1{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%);
+    border-radius:50px;
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-position: 100% 0;
+    cursor: pointer;
+}
+.btn2{
+    color: white;
+    font-size: 14px;
+    font-family: "Lexend",sans-serif;
+    position: relative;
+    background: #28325C;
+    border-radius:50px;
+    border-color: white;
+}
+.boton{
+    font-family: 'Lexend', sans-serif;
+    width: 180px;
+    margin: 5px ;
+    padding: 12px 25px;
+    border-radius: 45px;
+}
+
+.wallet{
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    width: 200px;
+    margin: 5px ;
+    padding: 10px 20px;
+    border-radius: 45px;
+    background: linear-gradient(45deg,#590f87 0,#ff0076 50%,#590f87 100%); 
+    border: none; 
+}
+
+
+.imgprincipal{
+    width: 100%;
+    max-width: 490px;
+}
+.container2{
+    background-color:#f8f9fa;
+}
+.titulo2{
+    padding: 30px 10px;
+    font-size: 36px;
+    align-items: center;
+    font-weight: 500;
+    color:#02072e;
+
+}
+.sectionicon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px;
+    padding-bottom: 50px;
+   
+}
+.icon{
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    height: 190px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    background-color:#f1f3f4;
+}
+.headsection3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5px;
+}
+.titulo3{
+    font-size: 36px;
+}
+
+.btnfollow{
+    color: #929292;
+    border-color: #929292;
+}
+.btnfeeds{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+.btnfeed{
+    font-size: 16px;
+    color: #929292;
+    border-color: transparent;
+    background-color: transparent;
+    width: 160px;
+}
+.btnfeed:hover{
+    border-color: #ff0076;
+    color: #ff0076;
+
+    
+}
+.card{
+    margin: 20px 0;
+}
+.img-feeds{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgfeed{
+    width: 100%;
+    max-width: 600px;
+}
+
+.product-bottom, .feedrow1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.bottom{
+    background-color: #02072e;
+}
+
+footer{
+    background-color: #131F42;
+    padding-top: 60px;
+    padding-bottom: 19px;
+    color: white;
+    width: 100%;
+}
+
+
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.redessociales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+hr{
+    width: 100vw;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid{
+    position: absolute;
+    margin-top: 10px;
+    
+}
+
+.logoprincipal{
+    margin-top: -90px;
+
+}
+
+
+ @media (max-width: 768px) {
+    .wallet {
+      display: none;}
+
+
+
+    }
+
+    @media (min-width: 992px){
+        .wallet {
+            position: absolute;
+            margin-left: 160px;
+            margin-top: 22px;
+        }
+
+        .container-fluid{
+            position: absolute;
+            margin-top: 280px;  
+        }
+
+        .logoprincipal{
+            margin-left: 70px;}
+
+        .navbar{
+            margin-left: -280px;
+        }
+
+        .wallet{
+            margin-top: 110px;
+        }
+    } 
+   
